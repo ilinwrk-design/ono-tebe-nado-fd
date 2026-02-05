@@ -1,1 +1,79 @@
-/* место для вашего кода */
+
+
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 49px 96px 50px;
+}
+
+.header_menu-list {
+    display: flex;
+    gap:33px;
+    padding: 0;
+    margin: 0;
+    list-style: circle;
+    font-size: 18px;
+}
+
+.header_menu-item_no-bullit{
+    list-style: none;
+}
+.header_menu_inactive{
+    text-decoration: none;
+}
+
+.header__link {
+  text-underline-offset: 4px;
+}
+.header_image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.header_logo{
+    justify-self: center;   
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+.address{
+    
+    font-size: 18px;
+    line-height: 24.3px;
+    max-width: 240px;
+    font-style: normal ;
+}
+
+.header_address{
+justify-self: end;
+}
+
+.header_address-link{
+    text-underline-offset: 4px;
+}
+
+.cover{
+    position: relative;
+    z-index: 1;
+    padding: 170px 50px 50px 50px;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+.lots{}
+.about{}
+.footer{}
