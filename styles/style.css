@@ -255,7 +255,7 @@ justify-self: end;
 }
 .footer{
     display: grid;
-    grid-template-columns:1fr min-content 1fr;
+    grid-template-columns:1fr 1fr 1fr;
     padding: 141px 51px;
 }
 .footer__menu{
@@ -263,5 +263,20 @@ justify-self: end;
 
 }
 .footer__menu-link{
-    
+    font-size: 18px;
+    text-underline-offset: 3px;
 }
+.footer__social-list-item{}
+
+.footer__social-link{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    column-gap: 47px;
+}
+
+.footer__social-icon{
+    display: block;
+    width: 48px;
+    height: 48px;
+}  
