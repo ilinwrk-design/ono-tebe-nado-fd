@@ -1,4 +1,6 @@
-
+a:active {
+  text-decoration: none; /* убираем подчеркивание у активной ссылки*/
+}
 
 .header {
   display: grid;
@@ -117,7 +119,7 @@
 }
 
 .bet-button {
-  border: 1px solid currentColor; /* */
+  border: 1px solid; /* curentColor можно не указывать потому что цвет передается от родителя, но правильно ли это? */
   padding: 12px 32px;
   color: #fff;
   font-size: 22px;
