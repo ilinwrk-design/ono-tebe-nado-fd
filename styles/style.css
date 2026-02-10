@@ -1,6 +1,4 @@
-a:active {
-  text-decoration: none; /* убираем подчеркивание у активной ссылки*/
-}
+
 
 .header {
   display: grid;
